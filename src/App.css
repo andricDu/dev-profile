@@ -10,6 +10,14 @@
   flex-wrap: wrap;
 }
 
+.list-row {
+  min-height: 125px;
+  display: flex;
+  flex-direction: row;  
+  flex-grow: 1;
+}
+
+
 .row-el {
   flex-grow: 1;
 }
@@ -93,6 +101,15 @@
 }
 
 .infra-icon {
-  height: 50px;
+  height: 40px;
   padding: 2px;
+}
+
+.infra-list-icon {
+  width: 80px;
+  padding: 2px;
+}
+
+h3 {
+  margin-top: 50px;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Route
+  Route,
+  HashRouter as Router
 } from 'react-router-dom';
 import logo from './dusan.png';
 import background from './static/img/background.jpg'

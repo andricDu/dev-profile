@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ListRow from './ListRow';
 import '../App.css';
 import windows from '../static/img/windows_logo.png'
 import ubuntu from '../static/img/ubuntu-logo14.png'
@@ -8,6 +9,11 @@ import macos from '../static/img/MacOS_wordmark.svg.png'
 import aws from '../static/img/AmazonWebservices_Logo.svg.png'
 import azure from '../static/img/microsoft-azure-2.svg'
 import openstack from '../static/img/OpenStack®_Logo_2016.svg.png'
+import docker from '../static/img/docker.png'
+import ansible from '../static/img/Ansible_logo.svg.png'
+import elasticsearch from '../static/img/Elasticsearch-Logo-Color-V.png'
+import hadoop from '../static/img/Hadoop_logo.svg'
+import spark from '../static/img/spark-logo.png'
 
 class Infrastructure extends Component {
 
@@ -19,7 +25,7 @@ class Infrastructure extends Component {
         <div>
           <p className="App-intro">
             In order to effectively architect and develop any solution, one must understand all the moving
-            parts in play and have a toolbox of options, methods, and solutions ready to meet any challange.
+            parts in play and have a toolbox of options, methods, and tools ready to meet any challange.
             Here I will go over the technology and tools I am familiar with as well as any notable professional experience.
           </p>
         </div>
@@ -59,32 +65,36 @@ class Infrastructure extends Component {
 
         <h3>Services, frameworks, and Tools</h3>
         <p className="App-intro">
-          I hold the opinion that it is not just enough to be able to develop with a framework or 
+          I hold the opinion that it is not just enough to be able to develop with a framework or
           against a service. One needs to be able to deploy and configure before they truly appreciate all
           the nuances, edge cases, as well as limitations. Here is a short summary of the services, tools, and frameworks I am comfortable
-          deploying and configuring. 
+          deploying and configuring.
         </p>
         <div className="content">
-          <div>
-            Docker
-          </div>
+          <ListRow
+            imgUrl={docker}
+            width="50px"
+            text="I have experience deploying microservices into production with Docker as well as authoring docker files and utilizing docker compose. I also have experience configuring and managing docker swarms" />
 
-          <div>
-            Ansible
-          </div>
+          <ListRow
+            imgUrl={ansible}
+            width="50px"
+            text="I have written ansible playbooks not just for the purposes of reproducing our infrastructure for ourself, but for other teams to be able to bring up our opensource solutions. This has been successfully done by teams as far as China." />
 
-          <div>
-            Elasticsearch
-          </div>
+          <ListRow
+            imgUrl={elasticsearch}
+            width="120px"
+            text="My experience with Elasticsearch is considerable, having worked with and configured clusters with TeraBytes of RAM and billions of documents. I also have experience fine tuning the performance and stability, from hardening against splitbrains to measuring cache evictions" />
 
-          <div>
-            Hadoop
-          </div>
+          <ListRow
+            imgUrl={hadoop}
+            width="120px"
+            text="Having worked in the field of big data, I have experience creating and configuring Hadoop clusters for the use of HDFS and MapReduce." />
 
-          <div>
-            Spark
-          </div>
-
+          <ListRow
+            imgUrl={spark}
+            width="120px"
+            text="In addition to the standard Hadoop stack, I have done substantial work with both Spark 1 and Spark 2. This includes setting up clusters for running jobs written in Java and Python." />
         </div>
 
       </div>
