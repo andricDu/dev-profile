@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;  
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.row-el {
+  flex-grow: 1;
+}
+
+.App {
+  text-align: center;
+  font-family: "PT Serif",Georgia,Times,serif;
+}
+
+.App-logo {
+  border-radius: 50%;
+  height: 75px;
+}
+
+.App-header {
+  background: rgb(85, 141, 168);
+  text-align: center;
+  height: 155px;
+  padding: 15px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.App-content {
+  display: inline-block;
+  max-width: 800px;
+  width: 70%;
+}
+
+.App-content p {
+  text-align: left;
+}
+
+.App-external-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.App-external-links li {
+  display: inline;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.App-external-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.App-myname {
+  margin: 0;
+  padding: 0;
+}
+
+.App-skill-set {
+  cursor: pointer;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+
+.App-skill-set-link {
+  font-size:18px;
+   color: black;
+}
+
+.App-skill-set-link a {
+  color: black;
+}
+
+.App-skill-set:hover {
+  background: rgba(85, 141, 168, 0.5);
+}
+
+.skill-set-icon {
+  width: 50%;
+}
+
+.infra-icon {
+  height: 50px;
+  padding: 2px;
+}
