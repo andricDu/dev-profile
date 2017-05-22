@@ -24,6 +24,7 @@
 .App {
   text-align: center;
   font-family: "PT Serif",Georgia,Times,serif;
+  margin-bottom: 75px;
 }
 
 .App-logo {
@@ -92,7 +93,8 @@
 }
 
 .App-skill-set:hover {
-  background: rgba(85, 141, 168, 0.5);
+  margin: -1px;
+  border: 1px rgba(0, 0, 0, 0.5) solid;
 }
 
 .skill-set-icon {
@@ -111,4 +113,9 @@
 
 h3 {
   margin-top: 50px;
+}
+
+body {
+  background-color: rgba(0,0,0,0.01);
+  color: rgba(0,0,0,0.8.5)
 }

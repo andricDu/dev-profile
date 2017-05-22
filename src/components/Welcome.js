@@ -25,7 +25,7 @@ class Welcome extends Component {
             mathematical problems. I have a passion and history working in scientific and medical fields,
             and have a great deal of experience with web technologies. 
           </p>
-        <h2>My Skill Sets</h2>
+        <h2>Skill Sets</h2>
         <div className="row">
 
           <div className="App-skill-set">
