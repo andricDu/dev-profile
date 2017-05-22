@@ -28,21 +28,21 @@ class Welcome extends Component {
         <h2>My Skill Sets</h2>
         <div className="row">
 
-          <div className="App-skill-set col-sm-4 col-md-4">
+          <div className="App-skill-set">
             <Link to="/infra">
               <img src={infra} className="skill-set-icon" alt="IT Infrastructure" />
               <div className="App-skill-set-link">Infrastructure</div>
             </Link>
           </div>
 
-          <div className="App-skill-set col-sm-4 col-md-4">
+          <div className="App-skill-set">
             <Link to="/backend">
               <img src={backend} className="skill-set-icon" alt="Backend" />
               <div className="App-skill-set-link">Back End</div>
             </Link>
           </div>
 
-          <div className="App-skill-set col-sm-4 col-md-4">
+          <div className="App-skill-set">
             <Link to="/frontend">
               <img src={frontend} className="skill-set-icon" alt="Front End" />
               <div className="App-skill-set-link">Front End</div>
