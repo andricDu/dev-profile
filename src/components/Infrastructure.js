@@ -31,12 +31,6 @@ class Infrastructure extends Component {
         </div>
 
         <h3>Services, frameworks, and Tools</h3>
-        <p className="App-intro" style={{ marginBottom: "25px" }}>
-          I hold the opinion that it is not just enough to be able to develop with a framework or
-          against a service. One needs to be able to deploy and configure before they truly appreciate all
-          the nuances, edge cases, as well as limitations. Here is a short summary of the services, tools, and frameworks I am comfortable
-          deploying and configuring.
-        </p>
         <div className="content">
           <InfraRow
             imgUrl={docker}

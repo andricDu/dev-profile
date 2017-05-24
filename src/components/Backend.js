@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import LangRow from './LangRow';
 import InfraRow from './InfraRow';
 import java from '../static/img/Java.png'
 import python from '../static/img/python.png'
